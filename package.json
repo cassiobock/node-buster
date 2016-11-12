@@ -1,0 +1,31 @@
+{
+  "name": "node-buster",
+  "version": "0.0.1",
+  "description": "A static generator for Ghost inspired by https://github.com/axitkhurana/buster",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassiobsilva/node-buster.git"
+  },
+  "keywords": [
+    "ghost",
+    "buster",
+    "static",
+    "generator"
+  ],
+  "author": "Cássio Böck <cassio@bock.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cassiobsilva/node-buster/issues"
+  },
+  "homepage": "https://github.com/cassiobsilva/node-buster#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "gh-pages": "^0.11.0",
+    "replace": "^0.3.0",
+    "website-scraper": "^1.2.1"
+  }
+}
