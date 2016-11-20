@@ -1,6 +1,6 @@
 {
   "name": "node-buster",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A static generator for Ghost inspired by https://github.com/axitkhurana/buster",
   "main": "index.js",
   "scripts": {
