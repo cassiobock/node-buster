@@ -34,4 +34,7 @@ scraper.createStaticFiles(ghostUrl, staticPath)
   .then(() => ghpagesdeploy.publish(staticPath, program.githubRepo, branch))
   .then(() => cleanup(staticPath))
   .then(() => console.log(chalk.green(`Static Ghost published to ${chalk.bold(program.siteUrl)}`)))
-  .catch(console.log)
+  .catch(err => {
+    console.error(err)
+    process.exit(1)
+  })
