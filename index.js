@@ -9,7 +9,7 @@ const replacer = require('./src/replacer')
 const scraper = require('./src/scraper')
 
 program
-  .version('0.0.4')
+  .version('0.0.5')
   .option('-g, --ghost-url [url]', 'configure the Ghost local URL. Default: http://localhost:2368')
   .option('-r, --github-repo <repo>', 'configure the GitHub repository')
   .option('-b, --branch [branch]', 'configure the GitHub branch. Default: `gh-pages`')
