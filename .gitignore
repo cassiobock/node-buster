@@ -38,3 +38,6 @@ jspm_packages
 
 # Ternjs config file
 .tern-project
+
+# Static content
+static
